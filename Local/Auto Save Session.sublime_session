@@ -1,0 +1,409 @@
+{
+	"folder_history":
+	[
+	],
+	"last_version": 3211,
+	"last_window_id": 2,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 480.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/D/Program Files/Sublime Text 3/sublime_text.exe"
+			],
+			"find":
+			{
+				"height": 39.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 27.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 50.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 640.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/C/Users/miclx/Desktop/test.js",
+					"settings":
+					{
+						"buffer_size": 451,
+						"line_ending": "Windows"
+					}
+				},
+				{
+					"contents": "Package Control Messages\n========================\n\nEmmet\n-----\n\n  Emmet plugin installed\n\n  Emmet is a web-developer’s toolkit for boosting HTML & CSS code writing.\n\n  With Emmet, you can type expressions (abbreviations) similar to CSS selectors and convert them into code fragment with a single keystroke. For example, this abbreviation:\n\n  ul#nav>li.item$*4>a{Item $}\n\n  ...can be expanded into:\n\n  <ul id=\"nav\">\n      <li class=\"item1\"><a href=\"\">Item 1</a></li>\n      <li class=\"item2\"><a href=\"\">Item 2</a></li>\n      <li class=\"item3\"><a href=\"\">Item 3</a></li>\n      <li class=\"item4\"><a href=\"\">Item 4</a></li>\n  </ul>\n\n  Read more about Emmet for Sublime Text:\n  https://github.com/emmetio/sublime-text-plugin#readme\n\nauto-save\n---------\n\n  Thank you for installing AutoSave\n  ----------------------------------------\n\n  You're one step closer to having your files save automatically after every modification!\n\n\n  Documentation\n  =============\n  The plugin is dead simple. When turned on, the current file you are viewing will\n  save automatically as you modify it. In other words, the file saves after every keystroke.\n  The plugin is turned off by default since it is so invasive. You may enable it by adding\n  a key binding to the \"auto_save\" command in \"Preferences / Key Bindings - User\", for example:\n\n  { \"keys\": [\"ctrl+shift+s\"], \"command\": \"auto_save\" }\n\n  See links below for more help.\n\n  Useful Links\n  ============\n  * Documentation & Code: https://github.com/jamesfzhang/auto-save\n  * Report issues: https://github.com/jamesfzhang/auto-save/issues\n  * Follow me on Twitter: @jamesfzhang\n\nCSS Extended Completions\n------------------------\n\n  CSS Extended Completions\n\n  Save any file you're working on to add its CSS/LESS/SCSS symbols to the completion index.\n\n  The following completions are provided:\n\n  - Extended CSS property/values\n  - CSS class names\n  - CSS IDs\n  - LESS variables/mixins/classes\n  - SCSS variables/mixins/classes\n\n  Available Options\n\n  - Options for what scopes trigger completions\n  - Option to auto clear cache on close.\n    Set \"save_cache_to_file\":false (defaults to true)\n  - Auto load css/less/scss from external folders\n    Example: \"load_external_files\":[\"/some/folder\", \"/another/folder\"]\n    (Must be absolute paths)\n  - Option to adjust what pseudo selectors are added to completions\n  - And more, just checkout the Default Settings file\n    Preferences > Package Settings > CSS Extended Completions\n\n\n  To delete your cache, open the command palette and type 'CSS delete cache'\n\nJavaScript Completions\n----------------------\n\n  JavaScript Completions Package\n  ===============================\n\n  🎉🎉 ANNOUNCEMENT - NEW PLUGIN \"JavaScript Enhancements\" RELEASED 🎉🎉\n  =======================================================================\n\n  I developed a new plugin with new features thanks to Flow (javascript static type checker from Facebook).\n\n  So, I will NO LONGER SUPPORT \"JavaScript Completions\" plugin, except in particular cases. \n  I'm going to focus only on this new one!\n\n  You can find it on: 👉👉 https://github.com/pichillilorenzo/JavaScriptEnhancements 👈👈\n\n  This new plugin offers not only a BETTER AUTOCOMPLETE but a lot of FEATURES about creating, \n  developing and managing javascript projects, such as:\n\n  - JavaScript real-time errors\n  - Code Refactoring\n  - Local bookmarks project\n  - Cordova projects (run cordova emulate, build, compile, serve, etc. directly from Sublime Text!)\n  - Ionic v1 and v2 (it includes also v3) projects (same as Cordova projects!)\n  - Angular v1 and v2 (it includes also v4 and v5) projects\n  - Vue projects (only about the creation at this moment)\n  - React projects (only about the creation at this moment)\n  - React Native projects (only about the creation at this moment. I will add also **NativeScript** support)\n  - Express projects (only about the creation at this moment)\n  - Yeoman generators\n  - etc.\n\n  You could use it also in existing projects!! \n\n  SEE the Wiki - https://github.com/pichillilorenzo/JavaScriptEnhancements/wiki\n  to get the complete list of the features that it offers!\n\n  It will turn Sublime Text into a JavaScript IDE like!\n  =====================================================\n\n  ## OS SUPPORTED NOW by this new plugin:\n  =======================================\n\n  👉 Linux (64-bit)\n  👉 Mac OS X \n  👉 Windows (64-bit)\n\n  Email me for any questions or doubts about this new project on: pichillilorenzo@gmail.com\n\n  Thanks for your support!!!\n\n\n\n\n  How To USE \"JavaScript Completions\"\n  ===================================\n\n  To try it, just write.\n\n  If you like this plugin, \"Star\" it on ---> https://github.com/pichillilorenzo/JavaScript-Completions <---\n\n  jQuery and NativeScript completions disabled by default!\n  You can enable them on Preferences -> Package Settings -> JavaScript Completions.\n\n  Some features could use npm!\n  It will be downloaded automatically with nodejs.\n\n  Features list:\n  - \"Find JavaScript Description\" Feature\n  - \"On Hover Description\" Feature\n  - \"Evaluate JavaScript\" Feature\n  - \"Can I use?\" Feature\n  - \"JSDoc\" Feature\n  - Context menu options\n\n\n  ENABLE or DISABLE completions\n  =============================\n\n  You can ENABLE or DISABLE completions! Just go to Preferences -> Package Settings -> JavaScript Completions\n\n\n  \"Find JavaScript Description\" Feature\n  =====================================\n\n  -- Supported only by Sublime Text 3 --\n\n  You can check the description of function/property/method by selecting the word (or, in case, it will take the first word near the blinking cursor) you want find. \n  \"right-click\" on your mouse and click on \"Find JavaScript Description\".\n  It will show a popup with the list of possible descriptions or, in some case, the direct description. \n\n  Key-Map list: Preferences -> Package Settings ->  JavaScript Completions -> Key Bindings - Default.\n\n  \"On Hover Description\" Feature\n  ==============================\n\n  Supported only by Sublime Text 3, Build >= 3124\n\n  Just put the cursor over a name of a function, property or constructor and it will appear a little popup with all matching found from the \"/sublime-completions\" list enabled. \n\n  - F = function\n  - P = property\n  - C = constructor\n\n\n  \"Evaluate JavaScript\" Feature\n  =============================\n\n  -- Supported only by Sublime Text 3 --\n\n  This feature uses node.js installed locally by this plugin.\n\n  You can change the path of \"node.js\" and \"npm\" on Preferences -> Package Settings ->  JavaScript Completions -> Settings - Default\n\n  You can evaluate the entire text selection or the current line! \n  If you select a text region and evaluate it, in the gutter of the editor will appear 2 white dots.\n  The first white dot represents the start of the region and the second white dot represents the end of the region.\n  You can eventually modify the region and, without reselect the same region, you can evaluate it again! \n  If you want hide this 2 dots, there is an entry on the context menu \"Evaluate JavaScript\".\n\n  When you evaluate code, this plugin will prepend \"use strict\"; automaticaly!\n\n  There are two main mode to evaluate code:\n  - eval, https://nodejs.org/dist/latest-v6.x/docs/api/cli.html#cli_e_eval_script\n  - print, https://nodejs.org/dist/latest-v6.x/docs/api/cli.html#cli_p_print_script\n\n  Key-Map list: Preferences -> Package Settings ->  JavaScript Completions -> Key Bindings - Default.\n\n\n  \"Can I use?\" Feature\n  ====================\n\n  Supported only by Sublime Text 3, Build >= 3124\n\n  This feature uses \"can i use\" json data from this repository: https://github.com/Fyrd/caniuse, that contains raw data from the http://caniuse.com support tables.\n  Thanks to @Fyrd.\n\n  You can use this feature in HTML, CSS and JavaScript context!\n  Just put the cursor on the word you want to check, \"right-click\" -> \"Can I use?\" and it will appear an input panel with all items that have a name matching with the word.\n  You can use key-map: ctrl+alt+w. Key-Map list: Preferences -> Package Settings ->  JavaScript Completions -> Key Bindings - Default.\n  After selecting an item from the list, it will appear a popup with all information from the http://caniuse.com support tables.\n  You can find it under \"Tools\" menu -> \"JavaScript Completions\" -> Search on \"Can I use\" list.\n\n\n  \"JSDoc\" Feature\n  ===============\n\n  Supported only by Sublime Text 3\n\n  Requires npm\n\n  This feature uses https://github.com/jsdoc3/jsdoc to generate API documentation.\n\n  You can find it under \"Tools\" menu -> \"JavaScript Completions\".\n\n  There are 2 main menu items:\n  - Generate Documentation\n  - Add jsdoc configuration file to the current project folder\n\n  These items can be used only with a project folder opened.\n  \"Generate Documentation\" uses the jsdoc command line to generate documentation.\n  It uses conf.json file for configuration.\n  The options (with default values) availables are:\n  {\n    \"tags\": {\n      \"allowUnknownTags\": true,\n      \"dictionaries\": [\"jsdoc\",\"closure\"]\n    },\n    \"source\": {\n      \"include\": [  ],\n      \"exclude\": [  ],\n      \"includePattern\": \".+\\\\.js(doc|x)?$\",\n      \"excludePattern\": \"(^|\\\\/|\\\\\\\\)_\"\n    },\n    \"opts\": {\n      \"template\": \"templates/default\",\n      \"encoding\": \"utf8\",\n      \"destination\": \"./out/\",\n      \"recurse\": true,\n      \"tutorials\": \"\"\n    },\n    \"plugins\": [],\n    \"templates\": {\n      \"cleverLinks\": false,\n      \"monospaceLinks\": false\n    }\n  }\n\n  \"Add jsdoc configuration file to the current project folder\" will add a conf.json file with default values to the current project folder.\n\n  How to use JSDoc: http://usejsdoc.org/\n\n\n  Context menu options\n  ====================\n\n  Context menu options:\n  - Surround With\n  - Delete Surrounded\n  - Create Class from object literal\n  - Sort array\n  - Split string lines to variable\n\n  ## Surround With ##\n\n  You MUST first select text to \"enable\" these options.\n\n  You can surround code with:\n  - if statement\n  - if else statement (this works only if you selected 2 regions)\n  - while statement\n  - do while statement\n  - for statement\n  - try catch statement\n  - try catch finally statement\n\n  This option works also on multiple selections at once.\n\n  ## Delete Surrounded ##\n\n  Options are:\n  - Strip quoted string\n\n  This option works also on multiple selections at once.\n\n  ## Create Class from object literal ##\n\n  This option create a JavaScript Class from an object literal (Constructor with all setter and getter for each field).\n  You can set default values or use the string \"required\" to say that a field hasn't a default value.\n  To work properly, you MUST declare a variable and assign an object literal to it, like this example:\n\n  var Person = {\n    name: \"required\",\n    surname: \"required\",\n    email: \"\",\n    age: 18\n  }\n\n  This option works also on multiple selections at once.\n\n  ## Sort array ##\n\n  Just put the cursor between brackets and will appear a menu with these options:\n  - Sort array ASC ( compare function: function(x,y){return x-y;} )\n  - Sort array DESC ( compare function: function(x,y){return y-x;} )\n  - Sort array alphabetically ASC\n  - Sort array alphabetically DESC\n\n  This option works also on multiple selections at once.\n\n  ## Split string lines to variable ##\n\n  Just put the cursor between a string with multiple lines and this option will appear in the context menu.\n  It will split the string and for each line will be concatenated to a variable named \"str\".\n  This option works also on multiple selections at once.\n\n  MIT License",
+					"settings":
+					{
+						"buffer_size": 11496,
+						"line_ending": "Windows",
+						"name": "Package Control Messages",
+						"read_only": true,
+						"scratch": true
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"in",
+						"Package Control: Install Package"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/D/Program Files/Sublime Text 3/sublime_text.exe"
+			],
+			"find":
+			{
+				"height": 39.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 1,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/C/Users/miclx/Desktop/test.js",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 451,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										369,
+										369
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 11496,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										627,
+										627
+									]
+								],
+								"settings":
+								{
+									"auto_indent": false,
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_width": 2,
+									"word_wrap": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 27.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.CSS Extended Completions":
+			{
+				"height": 0.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,2,3,-32000,-32000,-1,-1,591,52,52,708",
+			"project": "",
+			"replace":
+			{
+				"height": 50.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
